@@ -1,0 +1,127 @@
+body {
+    background-color: #FFCC99;
+}
+h1 {
+    text-align: center;
+    font-family: "delaney", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+
+.homepage {
+    font-family: "delaney", sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FF99CC;
+}
+.featured-items .image-box {
+    flex: 1;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 0 10px;
+}
+.featured-items .image-box:nth-child(2n) {
+    background-color: aliceblue; 
+}
+.featured-items .image-box:nth-child(3n) {
+    background-color: aliceblue; 
+}
+.featured-items .image-box img {
+    max-width: 100%;
+    height: auto;
+}
+.cakes-and-pies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FF99CC;
+
+}
+
+.image-box2 {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    padding: 10px; 
+}
+
+.image-box2 img {
+    width: 100%;
+    height: auto;
+}
+
+.chocolate {
+    background-color: aliceblue; 
+}
+
+.lime {
+    background-color: aliceblue; 
+}
+
+.orange {
+    background-color: aliceblue; 
+}
+
+.chocolate-raspberry {
+    background-color: aliceblue; 
+}
+
+.carrot {
+    background-color: aliceblue; 
+}
+
+.chocolate-pb {
+    background-color: aliceblue; 
+}
+
+.Cupcakes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FF99CC;
+
+}
+
+.Cupcakes .image-box3 {
+    flex: 1;
+    text-align: center;
+    background-color: aliceblue; 
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.Cupcakes .image-box3:nth-child(2n) {
+    background-color: aliceblue; 
+}
+.Cupcakes .image-box3:nth-child(3n) {
+    background-color: aliceblue; 
+}
+.Cupcakes .image-box3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+

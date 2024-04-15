@@ -1,0 +1,41 @@
+body {
+    background-color: #FFCC99;
+}
+
+h1 {
+    text-align: center;
+    font-family: "delaney", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.homepage {
+    font-family: "delaney", sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.product1 {
+     background-color: #FF99CC
+     padding: 20px;
+     margin: 20px
+}
+
+.product2 {
+    background-color: #FF99CC
+    padding: 20px;
+    margin: 20px;
+}

@@ -27,10 +27,47 @@ h1 {
     font-size: 35px;
 }
 
-.long {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.specials-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF99CC; 
+    padding: 20px; 
+}
+
+.image-box {
+    flex: 0 0 calc(16.666% - 20px); /* Adjust the width as needed */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.apple {
+    background-color: aliceblue; 
+}
+
+.blueberry {
+    background-color: aliceblue; 
+}
+
+.fruitnut {
+    background-color: aliceblue;
+}
+
+.scone {
+    background-color: aliceblue;
+}
+
+.pie {
+    background-color: aliceblue;
+}
+
+.cookies {
+    background-color: aliceblue;
 }
 
 .events-container {
@@ -56,26 +93,4 @@ h1 {
 
 .events-container > p {
     align-self: flex-end;
-}
-
-
-.text-container {
-    width: 900px;
-    margin: 0px auto;
-    margin-top: 60px;
-
-}
-
-h4 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-    font-size: 40px;
-}
-
-h2 {
-    text-align: center;
-    font-size: 40px;
 }
