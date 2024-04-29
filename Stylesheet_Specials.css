@@ -31,16 +31,16 @@ p {
 }
 
 
-.container {
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     font-family: Verdana, Geneva, sans-serif;
 }
-.container a {
+.nav a {
     color: #c93680;
 }
-.container a:hover {
+.nav a:hover {
     color:#FF99CC
 }
 

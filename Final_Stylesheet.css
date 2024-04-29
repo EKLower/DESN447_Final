@@ -12,13 +12,16 @@ h1 {
 h2 {
     text-align: center;
     font-size: 40px;
+    font-family: Verdana, Geneva, sans-serif;
 }
 h4 {
     text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
 }
 p {
     text-align: center;
     font-size: 40px;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .homepage {
@@ -26,16 +29,16 @@ p {
 
 }
 
-.container {
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     font-family: Verdana, Geneva, sans-serif;
 }
-.container a {
+.nav a {
     color: #c93680;
 }
-.container a:hover {
+.nav a:hover {
     color:#FF99CC
 }
 
