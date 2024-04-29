@@ -8,17 +8,42 @@ h1 {
     font-style: normal;
     font-size: 60px;
 }
+h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 23px;
+}
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+}
+
 
 .homepage {
     font-family: "delaney", sans-serif;
 
 }
+.homepage a {
+    color: #c93680;
+}
+
+.homepage a:hover {
+    color:#FF99CC
+}
+
 
 .container {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
 }
+.container a {
+    color: #c93680;
+}
+.container a:hover {
+    color:#FF99CC
+}
+
 
 .section {
     flex: 1;

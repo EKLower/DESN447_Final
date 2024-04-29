@@ -8,17 +8,41 @@ h1 {
     font-style: normal;
     font-size: 60px;
 }
-
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+}
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    
+    
+}
 
 .homepage {
     font-family: "delaney", sans-serif;
 
 }
 
+.homepage a {
+    color: #c93680;
+}
+
+.homepage a:hover {
+    color:#FF99CC
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.container a {
+    color: #c93680;
+}
+.container a:hover {
+    color:#FF99CC
 }
 
 .section {
@@ -51,6 +75,7 @@ h1 {
     max-width: 100%;
     height: auto;
 }
+
 .cakes-and-pies {
     display: flex;
     flex-wrap: wrap;
@@ -59,14 +84,12 @@ h1 {
     background-color: #FF99CC;
 
 }
-
 .image-box2 {
     width: calc(33.33% - 20px); 
     margin-bottom: 20px;
     box-sizing: border-box; 
     padding: 10px; 
 }
-
 .image-box2 img {
     width: 100%;
     height: auto;
@@ -103,7 +126,6 @@ h1 {
     background-color: #FF99CC;
 
 }
-
 .Cupcakes .image-box3 {
     flex: 1;
     text-align: center;
@@ -111,7 +133,6 @@ h1 {
     padding: 20px;
     margin: 0 10px;
 }
-
 .Cupcakes .image-box3:nth-child(2n) {
     background-color: aliceblue; 
 }
